@@ -51,7 +51,7 @@ body {
     border-radius: 25px;
     -webkit-box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
             box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
-    background-color: #222831;
+    background-color: #20262e;
     color: #ffffff;
     height: 300px;
     align-items: center;
@@ -205,7 +205,7 @@ body {
 
 
 .info-side {
-  /* background-color: #222831; */
+  /* background-color: #20262e; */
   border-radius: 0 25px 25px 0;
   position: relative;
   float: left;
@@ -270,7 +270,7 @@ body {
   }
 
   .info-side {
-    background-color: #222831;
+    background-color: #20262e;
     border-radius: 0 25px 25px 25px;
     margin-top: -203px;
     width: 306px;
