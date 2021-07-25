@@ -150,10 +150,6 @@ body {
   z-index: 10;
 }
 
-.weather-side.warm {
-  /* background-image: url("https://cdn.pixabay.com/photo/2020/05/06/06/18/blue-5136251_1280.jpg"); */
-}
-
 .weather-side:hover {
   -webkit-transform: scale(1.1) perspective(1500px) rotateY(10deg);
   transform: scale(1.1) perspective(1500px) rotateY(10deg);
@@ -188,7 +184,6 @@ body {
   margin: 0 0 0 -10px;
   height: 60px;
   width: auto;
-  size: ;
 }
 
 .weather-temp {
