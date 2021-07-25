@@ -25,6 +25,7 @@ function App() {
           setQuery('');
           console.log(result);
         });
+        evt.target.blur();
      }
   }
 
