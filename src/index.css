@@ -141,8 +141,8 @@ body {
   background-repeat: no-repeat;
   background-color: #222831;
   width: 300px;
-  -webkit-box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.6);
   -webkit-transition: -webkit-transform 300ms ease;
   transition: -webkit-transform 300ms ease;
   -o-transition: transform 300ms ease;
