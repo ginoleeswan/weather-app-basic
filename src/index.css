@@ -251,11 +251,6 @@ body {
 
 @media screen and (max-width: 600px) {
 
-  body {
-    height: var(--app-height);
-    height: -webkit-fill-available;
-  }
-
   .app-name {
     margin-right: 35px;
     margin-bottom: 5px;
@@ -291,30 +286,12 @@ body {
    font-size: 8px;
   }
 
-  
-  
+}
 
 
-
-  /* .body {
-      width: 50%;
-      margin: 20% auto;
-  } */
-
-  /* .todo-input {
-      width: 60%;
+@media screen and (max-width: 480px) {
+  body {
+    height: var(--app-height);
+    height: -webkit-fill-available;
   }
-
-  .todo-input.edit {
-      width:50%;
-  }
-
-  .title {
-      font-size: 22px;
-  }
-
-  .todo-row {
-      width: 80%;
-      font-size: 13px;
-  } */
 }
