@@ -84,7 +84,7 @@ function App() {
 
   return (
     <>
-    <div className="app-name">WEATHER APP</div>
+    <div className="app-name">WEATHER</div>
     <div className="app">
 
       <div className={
