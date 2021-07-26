@@ -169,10 +169,12 @@ body {
   background-image: var(--gradient);
   border-radius: 25px;
   opacity: 1;
+  transition: 3s ease;
 }
 
 .weather-gradient.warm {
   background-image: linear-gradient(135deg, #f1cf5c 0%, #f8805f 100%);
+  transition: 3s ease;
 }
 
 .weather-container {
@@ -194,6 +196,7 @@ body {
   margin: -10px 0px 0 0;
   font-weight: 700;
   font-size: 4em;
+  transition: 3s ease;
 }
 
 .weather-desc {

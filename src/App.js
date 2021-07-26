@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { WiDaySunny, WiRain, WiCloudy, WiThunderstorm  } from 'react-icons/wi';
+import { WiDaySunny, WiRain, WiCloudy, WiThunderstorm, WiFog } from 'react-icons/wi';
 import { IoLocationOutline } from 'react-icons/io5'
 import './App.css';
 
@@ -12,22 +12,67 @@ function App() {
 
   const [query, setQuery] = useState('');
 
-  const [weather, setWeather] = useState({})
+  const [weather, setWeather] = useState({});
+
+  const [err, setErr] = useState('');
 
   // const [weatherIcon, setWeatherIcon] = useState
+
+
+
 
   function search(evt) {
      if(evt.key === 'Enter') {
        fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
-        .then(res => res.json())
-        .then(result => {
+        
+       .then((res) => {
+          if (res.status === 404) {
+            throw new Error("I didn't find this city. Please try again!");
+          } 
+          else {
+            setErr(null);
+            return res.json();
+          }
+        })
+
+        .then(
+          (result => {
           setWeather(result);
           setQuery('');
           console.log(result);
-        });
+        }),
+        (err) => setErr(err)
+        );
         evt.target.blur();
      }
   }
+
+
+
+
+
+
+//   function search(evt) {
+//     if(evt.key === 'Enter') {
+//       fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
+//        .then(res => res.json())
+//        .then(result => {
+//          setWeather(result);
+//          setQuery('');
+//          console.log(result);
+//        });
+//        evt.target.blur();
+//     }
+//  }
+
+
+
+
+
+
+
+
+
 
   function dateBuilder(d) {
     let months = ["January", "February", "March", "April", "May", "June", 
@@ -62,6 +107,10 @@ function App() {
 
       case 'Clear':
         icon = <WiDaySunny className="weather-icon" />;
+        break;
+
+      case 'Mist':
+        icon = <WiFog className="weather-icon" />;
         break;
 
       case 'Rain':
@@ -180,6 +229,7 @@ function App() {
             onChange={e => setQuery(e.target.value)}
             value={query}
             onKeyPress={search }
+            err = {err}
             />
           </div>
           
