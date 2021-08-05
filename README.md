@@ -1,6 +1,6 @@
-<h1 align="center">⛅ React Weather App ⛅</h1>
+<h1 align="center">⛅ Weather App ⛅</h1>
 
-<p align="center"> A basic weather app made in React, constructed with create-react-app, utilizing OpenWeatherMap's API. </p>
+<p align="center"> Made in React, constructed with create-react-app, utilizing OpenWeatherMap's API. </p>
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -14,7 +14,7 @@
 <h2 align="center">☀️ <a href="https://ginoleeswan.github.io/weather-app-basic/">See Live</a> ☀️</h2>
 
 <p align="center">
-  <img src="./images/weather-app.gif"  alt="animated" />
+  <img src="./images/weather-app.gif" style="background: none;"  alt="animated" />
 </p>
 
 <h2 align="right">📖 &nbsp; Lessons Learned</h2>
@@ -32,7 +32,7 @@ This application also tested my skills in adapting & optimizing the responsive w
 
 </div>
 
-## 🔮 &nbsp; Potential Future Features
+## 🔮 &nbsp; Future Features
 
 - 📅 &nbsp; 3-Day / Week view
 - 🌡️ &nbsp; Celsius to Fahrenheit converter
