@@ -21,6 +21,7 @@
 <h2 align="right">📖 &nbsp; Lessons Learned</h2>
 
 <div align="right">
+
 This was my second react project, after the mandatory to-do list!
 Learned how to make **external API calls** to pull weather infomation from a third party site.
 
