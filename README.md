@@ -23,14 +23,17 @@
 
 <div align="right">
 
-My second react project, after the mandatory to-do list!
-The main focus here was to make **external API calls** to pull weather infomation from a third party site.
+&nbsp; My second react project, after the mandatory to-do list!\
+&nbsp; The main focus here was to make **external API calls** to pull weather infomation from a third party site.
 
-I got more comfortable using **Hooks** rather than class based components. It removes the hassle of having to bind to 'this' constantly. Using the setState method with props makes **state management** simpler and more elegant.
+&nbsp; I got more comfortable using **Hooks** rather than class based components.\
+&nbsp; It removes the hassle of binding to 'this' constantly. Using setState method with props makes **state management** simpler & elegant.
 
-I started off with a simple CSS layout then modified to a **flexbox** display with a left page and right page component. The left page delivers the main information and the right contains the search bar & extra information.
+&nbsp; I started off with a simple CSS layout then modified to a **flexbox** display with a left page and right page component.\
+&nbsp; The left page delivers the main information and the right contains the search bar & extra information.
 
-This application tested my skills in adapting & optimizing a responsive web page to fit on **mobile screens**. After quite a bit of tweaking I settled on a simplified vertical mobile view design where the right page fits under the left like a stack of cards.
+&nbsp;This application tested my skills in adapting & optimizing a responsive web page to fit on **mobile screens**.\
+&nbsp; After a bit of tweaking I settled on a simple vertical mobile view design where the right page fits under the left like a stack of cards.
 
 </div>
 
