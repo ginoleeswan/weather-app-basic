@@ -38,8 +38,8 @@ This application tested my skills in adapting & optimizing a responsive web page
 
 - 📅 &nbsp; 3-Day / Week view
 - 🌡️ &nbsp; Celsius to Fahrenheit converter
-- 🧭 &nbsp; A compass to easily visualise wind direction
-- 🏙️ &nbsp; Dynamic backgrounds based on AM/PM and specific weather conditions
+- 🧭 &nbsp; Compass for wind direction
+- 🏙️ &nbsp; More dynamic backgrounds
 
 <h2 align="right">🚀 &nbsp; Deployment</h2>
 <div align="right">
