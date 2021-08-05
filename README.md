@@ -1,7 +1,6 @@
 <h1 align="center">⛅ React Weather App ⛅</h1>
 
-<h4 align="center"> A basic weather application made in React, constructed with create-react-app, featuring OpenWeatherMap's API and Hooks. </h4>
-<br/>
+<p align="center"> A basic weather application made in React, constructed with create-react-app, featuring OpenWeatherMap's API and Hooks. </p>
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
