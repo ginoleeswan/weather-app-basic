@@ -18,8 +18,9 @@
   <img src="./images/weather-app.gif"  alt="animated" />
 </p>
 
-## 📖 &nbsp; Lessons Learned
+<h2 align="right">📖 &nbsp; Lessons Learned</h2>
 
+<div align="right">
 This was my second react project, after the mandatory to-do list!
 Learned how to make **external API calls** to pull weather infomation from a third party site.
 
@@ -29,6 +30,8 @@ I started off with super simple CSS and then modified the app into a left page a
 
 This application also tested my skills in adapting & optimizing the responsive web page to fit on **mobile screens**. After quite a bit of tweaking I settled on a simplified vertical mobile view design where the right page fits under the left like a stack of cards.
 
+</div>
+
 ## 🔮 &nbsp; Potential Future Features
 
 - 📅 &nbsp; 3-Day / Week view
@@ -36,9 +39,10 @@ This application also tested my skills in adapting & optimizing the responsive w
 - 🧭 &nbsp; A compass to easily visualise wind direction
 - 🏙️ &nbsp; Dynamic backgrounds based on AM/PM and specific weather conditions
 
-## 🚀 &nbsp; Deployment
-
+<h2 align="right">🚀 &nbsp; Deployment</h2>
+<div align="right">
 Deployed with Github Pages
+</div>
 
 ## 🔨 &nbsp; Get Started
 
@@ -73,13 +77,17 @@ npm run start
 npm run test
 ```
 
+<div align="right">
+
 ## ✍️ &nbsp; Author
 
 👤 **Gino Swanepoel**
 
-- Twitter: [@mrginolee](https://twitter.com/mrginolee)
-- Github: [@ginoleeswan](https://github.com/ginoleeswan)
-- LinkedIn: [@ginoswanepoel](https://linkedin.com/in/ginoswanepoel)
+&nbsp; Twitter: [@mrginolee](https://twitter.com/mrginolee)\
+ &nbsp; Github: [@ginoleeswan](https://github.com/ginoleeswan)\
+ &nbsp; LinkedIn: [@ginoswanepoel](https://linkedin.com/in/ginoswanepoel)
+
+</div>
 
 ## ❤️ &nbsp; Show your support
 
