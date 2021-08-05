@@ -1,6 +1,6 @@
 <h1 align="center">⛅ React Weather App ⛅</h1>
 
-<h3 align="center"> A basic weather application made in React, constructed with create-react-app, featuring OpenWeatherMap's API and Hooks. </h3>
+<h4 align="center"> A basic weather application made in React, constructed with create-react-app, featuring OpenWeatherMap's API and Hooks. </h4>
 <br/>
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
@@ -12,13 +12,13 @@
   </a>
 </p>
 
-<h2 align="center"><a href="https://ginoleeswan.github.io/weather-app-basic/">☀️ See Live ☀️</a></h2>
+<h2 align="center">☀️ <a href="https://ginoleeswan.github.io/weather-app-basic/">See Live</a> ☀️</h2>
 
 <p align="center">
   <img src="./images/weather-app.gif"  alt="animated" />
 </p>
 
-# 📖 &nbsp; Lessons Learned
+## 📖 &nbsp; Lessons Learned
 
 This was my second react project, after the mandatory to-do list!
 Learned how to make **external API calls** to pull weather infomation from a third party site.
@@ -29,18 +29,18 @@ I started off with super simple CSS and then modified the app into a left page a
 
 This application also tested my skills in adapting & optimizing the responsive web page to fit on **mobile screens**. After quite a bit of tweaking I settled on a simplified vertical mobile view design where the right page fits under the left like a stack of cards.
 
-# 🔮 &nbsp; Potential Future Features
+## 🔮 &nbsp; Potential Future Features
 
 - 📅 &nbsp; 3-Day / Week view
 - 🌡️ &nbsp; Celsius to Fahrenheit converter
 - 🧭 &nbsp; A compass to easily visualise wind direction
 - 🏙️ &nbsp; Dynamic backgrounds based on AM/PM and specific weather conditions
 
-# 🚀 &nbsp; Deployment
+## 🚀 &nbsp; Deployment
 
 Deployed with Github Pages
 
-# 🔨 &nbsp; Get Started
+## 🔨 &nbsp; Get Started
 
 From your commang line, first clone this repo:
 
@@ -55,25 +55,25 @@ $ cd weather-app-basic
 $ git remote remove origin
 ```
 
-## Install
+### Install
 
 ```sh
 npm install
 ```
 
-## Usage
+### Usage
 
 ```sh
 npm run start
 ```
 
-## Run tests
+### Run tests
 
 ```sh
 npm run test
 ```
 
-# ✍️ &nbsp; Author
+## ✍️ &nbsp; Author
 
 👤 **Gino Swanepoel**
 
@@ -81,10 +81,6 @@ npm run test
 - Github: [@ginoleeswan](https://github.com/ginoleeswan)
 - LinkedIn: [@ginoswanepoel](https://linkedin.com/in/ginoswanepoel)
 
-# ❤️ &nbsp; Show your support
+## ❤️ &nbsp; Show your support
 
 Give a ⭐️ if this project helped you!
-
----
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
