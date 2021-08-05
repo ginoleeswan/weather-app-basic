@@ -43,7 +43,9 @@ This application tested my skills in adapting & optimizing a responsive web page
 
 <h2 align="right">🚀 &nbsp; Deployment</h2>
 <div align="right">
-Deployed with Github Pages
+
+Deployed with [Github Pages](https://ginoleeswan.github.io/weather-app-basic/)
+
 </div>
 
 ## 🔨 &nbsp; Get Started
