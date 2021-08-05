@@ -22,13 +22,13 @@
 <div align="right">
 
 This was my second react project, after the mandatory to-do list!
-Learned how to make **external API calls** to pull weather infomation from a third party site.
+My main focus was to make **external API calls** to pull weather infomation from a third party site.
 
-With this project I started to get more comfortable using **Hooks** rather than class based components. I definitely see the appeal. It removes all the hassle of having to bind to 'this' continuously. Being able to use the setState method with props makes **state management** simpler and more elegant.
+In this project I got more comfortable using **Hooks** rather than class based components. It removes all the hassle of having to bind to 'this' continuously. Being able to use the setState method with props makes **state management** simpler and more elegant.
 
-I started off with super simple CSS and then modified the app into a left page and right page component. The left page delivers the main information and the right contains the search bar as well as extra information.
+I started off with simple CSS then modified the styling into a left page and right page component. The left page delivers the main information and the right contains the search bar as well as extra information.
 
-This application also tested my skills in adapting & optimizing the responsive web page to fit on **mobile screens**. After quite a bit of tweaking I settled on a simplified vertical mobile view design where the right page fits under the left like a stack of cards.
+This application tested my skills in adapting & optimizing the responsive web page to fit on **mobile screens**. After quite a bit of tweaking I settled on a simplified vertical mobile view design where the right page fits under the left like a stack of cards.
 
 </div>
 
@@ -46,7 +46,7 @@ Deployed with Github Pages
 
 ## 🔨 &nbsp; Get Started
 
-From your commang line, first clone this repo:
+From your command line, first clone this repo:
 
 ```sh
 # Clone this repository
