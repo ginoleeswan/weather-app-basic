@@ -14,7 +14,9 @@
 <h2 align="center">☀️ <a href="https://ginoleeswan.github.io/weather-app-basic/">See Live</a> ☀️</h2>
 
 <p align="center">
-  <img src="./images/weather-app.gif" style="background: none;"  alt="animated" />
+  <a href="https://ginoleeswan.github.io/weather-app-basic/">
+    <img src="./images/weather-app.gif" style="background: none;"  alt="animated" />
+  </a>
 </p>
 
 <h2 align="right">📖 &nbsp; Lessons Learned</h2>
