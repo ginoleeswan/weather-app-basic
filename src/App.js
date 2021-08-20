@@ -331,6 +331,8 @@ function App() {
                     ...provided,
                     color: "black",
                   }),
+                  dropdownIndicator: (provided) => null,
+                  indicatorSeparator: (provided) => null,
                 },
               }}
             />
