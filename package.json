@@ -8,11 +8,15 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "feather-icons": "^4.28.0",
+    "install": "^0.13.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-feather": "^2.0.9",
+    "react-google-places-autocomplete": "^3.3.2",
     "react-icons": "^4.2.0",
+    "react-places-autocomplete": "^7.3.0",
     "react-scripts": "4.0.3",
+    "react-select": "^4.3.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
