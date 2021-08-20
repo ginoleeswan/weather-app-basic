@@ -307,7 +307,10 @@ function App() {
             <GooglePlacesAutocomplete
               apiKey="AIzaSyAGKZ_AIonUbG33gB3fLiqfA0LQOxtbEPY"
               initialValue="Port Elizabeth"
-              placeholder="Type in an address"
+              placeholder={"Enter Area"}
+              autocompletionRequest={{
+                types: ["(cities)"],
+              }}
               minLength={2} // minimum length of text to search
               returnKeyType={"search"}
               listViewDisplayed={"auto"} // true/false/undefined
